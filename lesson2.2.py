@@ -1,3 +1,11 @@
 a = int(input("enter a number"))
 
-print((a%10),((a//10)%10),((a//100)%10),((a//1000)%10),(a//10000))
+c = str(a%10)
+b = str((a//10)%10)
+d = str((a//100)%10)
+e = str((a//1000)%10)
+f = str(a//10000)
+
+print(str(c+b+d+e+f))
+
+
